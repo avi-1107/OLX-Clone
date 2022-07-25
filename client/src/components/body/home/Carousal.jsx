@@ -8,14 +8,13 @@ function CarousalLanding() {
           <div className="row d-flex justify-content-center text-center mt-5">
             <div className="col-md-10">
               <h2 className="display-4 fw-bold white-text pt-5 mb-2 carousel-text">
-                OLX
+                OLX-IITG
               </h2>
 
               <hr className="hr-light" />
 
               <h4 className="carousel-text my-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti consequuntur.
+                Buy, Sell and find just about anything!
               </h4>
               <button className="fw-bold btn btn-light">
                 Read more<i className="fa fa-book ml-2"></i>

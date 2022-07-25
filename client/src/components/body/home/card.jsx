@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+// import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart as farHeart } from "@fortawesome/free-regular-svg-icons";
 import "../../../styles/card.css";
 import { Link } from "react-router-dom";
 
@@ -8,7 +9,7 @@ function Card(product) {
     <div className="col">
       <div className="card text-bg-dark shadow-sm">
         <div className="card-header p-0 card-image-container">
-          <FontAwesomeIcon icon={faHeart} className="wishlist-icon">
+          <FontAwesomeIcon icon={farHeart} className="wishlist-icon">
             <button className="wishlist-button" href="/"></button>
           </FontAwesomeIcon>
           <img className="w-100" src={product.img} alt="random"></img>
@@ -21,13 +22,13 @@ function Card(product) {
               <Link to={`/product/${product.id}`}>
                 <button
                   type="button"
-                  className="btn btn-md btn-outline-light view-button"
+                  className="btn btn-md btn-outline-light view-button my-2"
                 >
                   View
                 </button>
               </Link>
             </div>
-            <h5>{product.price}</h5>
+            <h5>₹{product.price}</h5>
           </div>
         </div>
       </div>

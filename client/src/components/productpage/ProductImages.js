@@ -4,7 +4,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import images from "./ProductGallery";
 import "../../styles/productpage.css";
 
-function ProductImages() {
+function ProductImages(props) {
   return (
     <div className="gallery">
       <ImageGallery

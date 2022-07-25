@@ -152,13 +152,13 @@ p {
   text-align: center;
   padding: 8px 25px;
   border-radius: 30px;
-  background: #4d23af;
-  color: white;
+  background: rgb(166, 49, 255);
+  color: black;
   cursor: pointer;
   transition: all 0.2s linear;
 }
 .sell-btn:hover {
-  background: rgb(115, 69, 221);
+  background: rgb(177, 143, 255);
   color: black;
   transform: scale(1.15);
 }

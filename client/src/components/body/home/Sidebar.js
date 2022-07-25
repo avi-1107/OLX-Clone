@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import * as FaIcons from 'react-icons/fa';
-import { SidebarData } from './SidebarData';
-import SubMenu from './SubMenu';
-import { IconContext } from 'react-icons/lib';
+import React, { useState } from "react";
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import * as FaIcons from "react-icons/fa";
+import { SidebarData } from "./SidebarData";
+import SubMenu from "./SubMenu";
+import { IconContext } from "react-icons/lib";
 
 const Nav = styled.div`
-  background: purple;
+  background: rgb(166, 49, 255);
   height: 50px;
   display: flex;
   justify-content: flex-start;
@@ -24,21 +24,21 @@ const NavIcon = styled(Link)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height:30px;
-  width:30px;
-  padding-top:20px;
+  height: 30px;
+  width: 30px;
+  padding-top: 20px;
 `;
 
 const SidebarNav = styled.nav`
   background: #15171c;
   width: 300px;
-  height:100%;
+  height: 100%;
   display: flex;
   padding-top: 20px;
   justify-content: center;
   position: fixed;
   top: 130px;
-  left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
+  left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
   transition: 350ms;
   z-index: 10;
 `;
@@ -54,9 +54,9 @@ const Sidebar = () => {
 
   return (
     <div>
-      <IconContext.Provider value={{ color: '#fff' }}>
+      <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
-          <NavIcon to ='/'>
+          <NavIcon to="/">
             <FaIcons.FaShoppingCart onClick={showSidebar} />
           </NavIcon>
         </Nav>
