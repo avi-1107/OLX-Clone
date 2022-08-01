@@ -14,15 +14,12 @@ Website developed in MERN stack.
 ## Website Views
 ### Landing Page
 ![image](https://user-images.githubusercontent.com/89511416/180953834-60d6236f-3b90-4fa7-ad8b-2d8f12f2ca0d.png)
-
-### yet to add landing vid
-![image](https://user-images.githubusercontent.com/89511416/180955021-373c40c7-b682-4a13-a1e9-e9ab0be09cb1.mov)
+![image](https://user-images.githubusercontent.com/89511416/182164257-aaaeae99-943a-4cc0-b334-26aadc6037c3.gif)
 
 ### Products Page
 ![image](https://user-images.githubusercontent.com/89511416/180954108-7d89c596-6f75-4c85-bacb-745637598357.png)
 
-### yet to add product vid
-![image](https://user-images.githubusercontent.com/89511416/180955129-5d8ec715-99de-4db6-9a64-301116a385c1.mov)
+![image](https://user-images.githubusercontent.com/89511416/182164296-96d71779-e34c-4ab4-81e9-31b8bb4fcbdf.gif)
 
 ### profile Page
 ![image](https://user-images.githubusercontent.com/89511416/180954289-36030ab6-a35c-44fb-b252-85600268555c.png)
